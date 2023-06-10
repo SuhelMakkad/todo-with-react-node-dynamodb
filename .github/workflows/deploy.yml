@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  cache-and-install:
+  build:
     name: Build
     runs-on: ubuntu-latest
     defaults:
@@ -46,12 +46,6 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-  build:
-    needs: cache-and-install
-    name: Build
-    runs-on: ubuntu-latest
-
-    steps:
       - name: Build project
         run: pnpm run build
 
