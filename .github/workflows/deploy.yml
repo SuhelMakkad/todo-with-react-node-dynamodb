@@ -47,9 +47,7 @@ jobs:
         run: pnpm install
 
       - name: Build project
-        run: |
-          pnpm run build
-          ls -R $GITHUB_WORKSPACE
+        run: pnpm run build
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v2
@@ -64,9 +62,6 @@ jobs:
     if: github.ref == 'refs/heads/main'
 
     steps:
-      - name: Build project
-        run: ls -R $GITHUB_WORKSPACE
-
       - name: Download artifact
         uses: actions/download-artifact@v2
         with:
