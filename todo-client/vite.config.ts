@@ -15,6 +15,7 @@ export default defineConfig({
       "@/styles": getPath("./src/common/styles"),
       "@/images": getPath("./src/assets/images"),
       "@/assets": getPath("./src/assets"),
+      "@/lib": getPath("./src/lib"),
       "@/": getPath("./src"),
     },
   },

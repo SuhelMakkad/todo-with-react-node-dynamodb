@@ -3,12 +3,15 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 
 import "@/styles/global.css";
+import ThemeToggle from "@/components/ThemeToggle";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
+      <ThemeToggle />
+
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
