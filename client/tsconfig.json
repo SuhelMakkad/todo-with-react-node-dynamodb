@@ -14,6 +14,7 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "paths": {
+      "@/pages/*": ["./src/pages/*"],
       "@/components/*": ["./src/common/components/*"],
       "@/hooks/*": ["./src/common/hooks/*"],
       "@/styles/*": ["./src/common/styles/*"],
