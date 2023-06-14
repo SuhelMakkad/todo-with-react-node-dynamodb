@@ -1,5 +1,5 @@
 import NavBar from "@/components/NavBar";
-import { AddTodoDialog } from "@/components/AddTodoDialog";
+import AddTodoDialog from "@/components/AddTodoDialog";
 
 function App() {
   return (

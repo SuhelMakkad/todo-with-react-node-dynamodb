@@ -18,7 +18,7 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog";
 
-export const AddTodoDialog = () => {
+const AddTodoDialog = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
@@ -86,3 +86,5 @@ export const AddTodoDialog = () => {
     </Dialog>
   );
 };
+
+export default AddTodoDialog;
