@@ -20,7 +20,7 @@
       "@/styles/*": ["./src/common/styles/*"],
       "@/images/*": ["./src/assets/images/*"],
       "@/assets/*": ["./src/assets/*"],
-      "@/lib/*": ["./src/lib/*"],
+      "@/lib/*": ["./src/common/lib/*"],
       "@/*": ["./src/*"]
     },
 
