@@ -1,5 +1,6 @@
 import NavBar from "@/components/NavBar";
 import AddTodoDialog from "@/components/AddTodoDialog";
+import TodoList from "@/components/TodoList";
 
 function App() {
   return (
@@ -11,6 +12,10 @@ function App() {
           <h1 className="text-2xl font-medium mt-6">Your To-Do List</h1>
           <AddTodoDialog />
         </div>
+
+        <section className="mt-20">
+          <TodoList />
+        </section>
       </main>
     </>
   );
