@@ -17,6 +17,7 @@ export default defineConfig({
       "@/hooks": getPath("./src/common/hooks"),
       "@/styles": getPath("./src/common/styles"),
       "@/lib": getPath("./src/common/lib"),
+      "@/store": getPath("./src/common/store"),
       "@/images": getPath("./src/assets/images"),
       "@/assets": getPath("./src/assets"),
       "@/": getPath("./src"),

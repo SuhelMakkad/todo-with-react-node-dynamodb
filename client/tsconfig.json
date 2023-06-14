@@ -21,6 +21,7 @@
       "@/images/*": ["./src/assets/images/*"],
       "@/assets/*": ["./src/assets/*"],
       "@/lib/*": ["./src/common/lib/*"],
+      "@/store/*": ["./src/common/store/*"],
       "@/*": ["./src/*"]
     },
 
