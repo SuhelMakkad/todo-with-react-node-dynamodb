@@ -19,7 +19,7 @@ import {
 } from "@/components/ui/dialog";
 
 const AddTodoDialog = () => {
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, _setIsLoading] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
   const dispatch = useDispatch();
