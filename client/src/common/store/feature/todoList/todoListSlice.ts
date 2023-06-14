@@ -6,7 +6,7 @@ export type Todo = {
   title: string;
   description: string;
   createdAt: number;
-  isDone: boolean;
+  isDone?: boolean;
 };
 
 export type TodoListState = {

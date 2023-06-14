@@ -1,23 +1,16 @@
-import { useState } from "react";
-
 import NavBar from "@/components/NavBar";
+import { AddTodoDialog } from "@/components/AddTodoDialog";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <NavBar />
 
       <main className="container">
-        <h1>Vite + React</h1>
-        <div className="card">
-          <button onClick={() => setCount((count) => count + 1)}>count is {count}</button>
-          <p>
-            Edit <code>src/App.tsx</code> and save to test HMR
-          </p>
+        <div className="flex items-center justify-between mt-8">
+          <h1 className="text-2xl font-medium mt-6">Your To-Do List</h1>
+          <AddTodoDialog />
         </div>
-        <p className="read-the-docs">Click on the Vite and React logos to learn more</p>
       </main>
     </>
   );
